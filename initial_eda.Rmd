@@ -1,0 +1,41 @@
+---
+title: "EDA_WSB"
+author: "Tom Ilchef"
+date: "16/02/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Required Packages
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(quanteda)
+library(stringr)
+```
+
+
+# load data
+note: data was obtained from kaggle, at following URL, on 16th Feb:
+https://www.kaggle.com/unanimad/reddit-rwallstreetbets?select=r_wallstreetbets_posts.csv
+```{r}
+wsb_raw <- read.csv("data/r_wallstreetbets_posts.csv")
+```
+
+
+```{r}
+wsb_clean <- clean_wsb(wsb_raw)
+test <- head(wsb_clean, 1000)
+```
+
+
+```{r}
+first_corpus <- quanteda::corpus(test
+                 ,docid_field="id"
+                ,text_field="title")
+```
+
