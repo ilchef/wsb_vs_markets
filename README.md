@@ -12,8 +12,9 @@ I won't be investing any of my own money based on the findings of this analysis,
 ## Progress:
 
 * Getting the data
-  * WSB data
+  * WSB data :heavy_check_mark:
   * share price data
+  
 
 * Cleaning the data
   * WSB data
