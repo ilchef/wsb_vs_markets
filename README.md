@@ -12,7 +12,9 @@ I won't be investing any of my own money based on the findings of this analysis,
 ## About the Author:
 I'm a chemical engineer, data analyst and data scientist-in-training, based in Sydney, Australia.
 You can find me on [![LinkedIn][3.2]][3].
+
 <!-- Icons -->
 [2.2]: https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/linkedin-3-16.png (LinkedIn icon without padding)
+
 <!-- Links to your social media accounts -->
 [2]: https://www.linkedin.com/in/thomas-ilchef-b4a19b142/
