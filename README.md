@@ -1,4 +1,4 @@
-# WSB vs. Markets
+# WSB vs. Markets (work in progress)
 
 ## Purpose:
 The purpose of this project is to analyse comment data from r/wallstreetbets, and examine trends in hype and sentiment, and compare it to real share market performance.
